@@ -117,8 +117,8 @@ html, body {
   padding: 1em;
   width: 100%;
   min-height: 1px;
-  background: greenyellow;
-  border: 1px solid #000; }
+  background: yellowgreen;
+  border: 1px solid pink; }
 
 @media only screen and (min-width: 55em) {
   .wrapper {

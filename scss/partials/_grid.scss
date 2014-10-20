@@ -19,8 +19,8 @@ html, body {
     width: 100%;
     min-height: 1px;
     // grid indicators
-    background: greenyellow;
-    border: 1px solid #000;
+    background: $grid-background;
+    border: $grid-border;
 }   
 
 
