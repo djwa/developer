@@ -4,4 +4,6 @@ header {
     @include breakpoint(small) {
         height: $header-height-small;
     }
+    h1 {color: rgb(255,255,255);}
+    p {color: rgb(255,255,255);}
 }

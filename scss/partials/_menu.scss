@@ -1,0 +1,18 @@
+nav {
+    ul {
+        width: 100%;
+        text-align: left;
+    }
+    li {
+        list-style-type: none;
+        display: inline-block;
+        margin: 0 7px;
+        color: $font-nav-color;
+        line-height: $font-nav-line-height;
+    }
+    a {
+        color: $font-nav-color;
+        font-size: $font-nav-size;
+        text-decoration: none;
+    }
+}
