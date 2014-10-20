@@ -1,0 +1,24 @@
+// grid variables
+$grid-columns: 6;
+$grid-max-width: 65em;
+$grid-column-padding: 1em;
+
+$grid-column-padding-small: 0.5em;
+$grid-column-padding-medium-small: 0.5em;
+$grid-column-padding-medium: 0.7em;
+$grid-column-padding-large: 1em;
+ 
+// header
+$header-height: 150px;
+$header-background: rgba(0,0,0,0.8);
+// responsive header
+$header-height-small: 100px;
+
+// footer
+$footer-height: 100px;
+
+// typography variables
+$font-size: 16px;
+$line-height: $font-size * 1.5;
+$font-weight: 400;
+$h1-size: $font-size * 2;

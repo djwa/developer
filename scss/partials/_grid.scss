@@ -1,0 +1,48 @@
+html, body {
+    height: 100%;
+}
+
+.wrapper {
+    width: 100%; 
+    margin: 0 auto;
+}
+
+.wrapper,
+.row {
+    @extend %clearfix;
+}
+
+
+[class*='column-'] {
+    float: left;
+    padding: $grid-column-padding;
+    width: 100%;
+    min-height: 1px;
+    // grid indicators
+    background: greenyellow;
+    border: 1px solid #000;
+}   
+
+
+@include breakpoint(large) {
+    .wrapper {
+        width: 95%;
+        max-width: $grid-max-width;
+    }
+    @for $i from 1 through $grid-columns {
+        .column-#{$i} {
+            width: 100% / $grid-columns * $i;
+        }
+    }
+}
+
+@include breakpoint(medium-small) {
+    [class*='column-'] {
+        padding: $grid-column-padding-medium-small;
+    }
+    @for $i from 1 through $grid-columns {
+        header .column-#{$i} {
+            width: 100% / $grid-columns * $i;
+        }
+    }
+}
