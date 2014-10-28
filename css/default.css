@@ -174,9 +174,29 @@ header {
   header p {
     color: white; }
 
+nav button {
+  float: right;
+  display: block;
+  background: transparent;
+  text-indent: -2000em;
+  width: 50px;
+  height: 45px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden; }
+nav button::after {
+  background: none repeat scroll 0 0 #fff;
+  box-shadow: -3px 12px 0 #fff, 0 24px 0 #fff;
+  content: "";
+  height: 5px;
+  left: 16%;
+  position: absolute;
+  top: 7px;
+  width: 78%; }
 nav ul {
   width: 100%;
-  text-align: right; }
+  text-align: right;
+  display: none; }
 nav li {
   list-style-type: none;
   display: inline-block;

@@ -1,7 +1,29 @@
 nav {
+    button {
+        float: right;
+        display: block;
+        background: transparent;
+        text-indent: -2000em;
+        width: 50px; // 32
+        height: 45px; //25
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+    }
+    button::after {
+        background: none repeat scroll 0 0 #fff;
+        box-shadow: -3px 12px 0 #fff, 0 24px 0 #fff;
+        content: "";
+        height: 5px;
+        left: 16%;
+        position: absolute;
+        top: 7px;
+        width: 78%;
+    }
     ul {
         width: 100%;
         text-align: right;
+        display: none;
     }
     li {
         list-style-type: none;
