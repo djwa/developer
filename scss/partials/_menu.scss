@@ -4,15 +4,15 @@ nav {
         display: block;
         background: transparent;
         text-indent: -2000em;
-        width: 50px; // 32
-        height: 45px; //25
+        width: 45px; // 32
+        height: 40px; //25
         cursor: pointer;
         position: relative;
         overflow: hidden;
     }
     button::after {
         background: none repeat scroll 0 0 #fff;
-        box-shadow: -3px 12px 0 #fff, 0 24px 0 #fff;
+        box-shadow: -4px 10px 0 #fff, 0 20px 0 #fff;
         content: "";
         height: 5px;
         left: 16%;

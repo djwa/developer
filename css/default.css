@@ -105,6 +105,10 @@ p {
 strong, b {
   font-weight: 800; }
 
+@media (max-width: 30em) {
+  h1 {
+    font-size: 1.33333em;
+    line-height: 0.86667; } }
 html, body {
   height: 100%; }
 
@@ -179,14 +183,14 @@ nav button {
   display: block;
   background: transparent;
   text-indent: -2000em;
-  width: 50px;
-  height: 45px;
+  width: 45px;
+  height: 40px;
   cursor: pointer;
   position: relative;
   overflow: hidden; }
 nav button::after {
   background: none repeat scroll 0 0 #fff;
-  box-shadow: -3px 12px 0 #fff, 0 24px 0 #fff;
+  box-shadow: -4px 10px 0 #fff, 0 20px 0 #fff;
   content: "";
   height: 5px;
   left: 16%;

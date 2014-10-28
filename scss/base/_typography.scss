@@ -35,3 +35,10 @@ p {
 strong, b {
     font-weight: $font-weight * 2;
 }
+
+@include breakpoint(small) {
+    h1 {
+        font-size: $h1-size / 1.5;
+        line-height: $h1-line-height / 1.5;
+    }
+}
