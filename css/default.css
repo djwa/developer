@@ -187,7 +187,8 @@ nav button {
   height: 40px;
   cursor: pointer;
   position: relative;
-  overflow: hidden; }
+  overflow: hidden;
+  z-index: 1; }
 nav button::after {
   background: none repeat scroll 0 0 #fff;
   box-shadow: -4px 10px 0 #fff, 0 20px 0 #fff;
@@ -198,9 +199,11 @@ nav button::after {
   top: 7px;
   width: 78%; }
 nav ul {
+  position: relative;
   width: 100%;
   text-align: right;
-  display: none; }
+  opacity: 0;
+  z-index: 0; }
 nav li {
   list-style-type: none;
   display: inline-block;
